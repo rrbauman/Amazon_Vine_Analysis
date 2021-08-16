@@ -1,5 +1,5 @@
 # Amazon_Vine_Analysis
-# 16 AWS, RDS and posgres/pgadmin
+### 16 AWS, RDS and posgres/pgadmin
 
 ## Overview of the analysis:
 Amazon has two types of reviews; 
@@ -14,25 +14,29 @@ who are then required to publish a review.
 
 We are tasked with identifying if the vine reviews are in anyway biased.
 
-## Results of our Video Game analysis of the reviews: Using bulleted lists and images of DataFrames as support, address the following questions:
+## Results of our Video Game analysis of the reviews: 
 
-How many total Vine reviews?
+- How many total Vine reviews were there for the Video Game listing?
+
 ![Amazon_Vine_Analysis](./count_vineY.png)
 
-How many total non-Vine reviews?
+- How many total non-Vine reviews were there for the Video Game listing?
+
 ![Amazon_Vine_Analysis](./count_vineN.png)
 
-How many Vine reviews were 5 stars that had had percent of helpful votes/total votes > .50? 
+- How many Vine reviews were 5 stars that had had percent of helpful votes/total votes > .50? 
+
 ![Amazon_Vine_Analysis](./countYgt50.png)
 
-How many non-Vine reviews were 5 stars that had had percent of helpful votes/total votes > .50? 
+- How many non-Vine reviews were 5 stars that had had percent of helpful votes/total votes > .50? 
+
 ![Amazon_Vine_Analysis](./countNgt50.png)
 
-What percentage of Vine reviews were 5 stars? 
+- What percentage of Vine reviews were 5 stars? 
 If you take the above count of 94 and then the 48 that were 5 stars as shown below, that gives a total of 51%:
 ![Amazon_Vine_Analysis](./vine_Y_df5.png)
 
-What percentage of non-Vine reviews were 5 stars?
+- What percentage of non-Vine reviews were 5 stars?
 if you take the count of 40,471 and then the 15663 shown below that were 5 stars, that gives a total of 39%:
 
 ![Amazon_Vine_Analysis](./vine_N_df5.png)
@@ -41,7 +45,11 @@ if you take the count of 40,471 and then the 15663 shown below that were 5 stars
 
 ## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. 
 The data shows that the vine reviews tend to have a 
-Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+Use the results of your analysis to support your statement. 
+
+## Additional Analysis that is recommded to better understand the reviews:
+
+Then, provide one additional analysis that you could do with the dataset to support your statement.
 
 
 ## NYC Citi Bike Overview
